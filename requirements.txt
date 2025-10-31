@@ -1,3 +1,6 @@
-pip uninstall urllib3 -y
-pip install urllib3==1.26.15
-pip install python-telegram-bot==13.15 --force-reinstall
+ccxt
+pandas
+numpy
+telegram
+flask
+python-telegram-bot
