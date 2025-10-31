@@ -18,7 +18,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 # ------------------------------
 # CONFIG (à personnaliser)
 # ------------------------------
-TELEGRAM_TOKEN = "7875041263:AAEmIgljinrszCBtQJ-cjMDsgx9K7sGNuXc"             # <-- remplace ici
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")             # <-- remplace ici
 TELEGRAM_CHAT_ID = "-1003279467059"          # ton groupe (laisser si correct)
 VIP_CHANNEL_LINK = "https://t.me/+mGCf9w4NMWBiZmNk"  # lien que tu as fourni
 
