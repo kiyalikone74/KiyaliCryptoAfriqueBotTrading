@@ -12,10 +12,10 @@ import time
 import traceback
 from datetime import datetime
 from flask import Flask
-import threading
-from telegram.ext import Updater, CommandHandler, MessageHandler
+import threadingfrom telegram.ext import Updater, CommandHandler, MessageHandler
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
- 
+ from telegram import Filters
+
 # ------------------------------
 # CONFIG (à personnaliser)
 # ------------------------------
