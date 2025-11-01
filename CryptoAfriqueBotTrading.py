@@ -14,7 +14,8 @@ from datetime import datetime
 from flask import Flask
 import threading
 from telegram.ext import Updater, CommandHandler, MessageHandler
-from telegram import Filters 
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+ 
 # ------------------------------
 # CONFIG (à personnaliser)
 # ------------------------------
