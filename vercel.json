@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "CryptoAfricoBotTrading.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "CryptoAfricoBotTrading.py"
+    }
+  ]
+}
